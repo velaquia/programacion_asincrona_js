@@ -78,5 +78,5 @@ Promise.all(pokePromise)
     .then(pokeLoad)
     .then(pokeFilter)
     .then(pokeRender)
-    .then(addPokemonEvents)
+    .then(addPokemonEvents);
 
