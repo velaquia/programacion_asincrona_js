@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>App PokemonList</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="StyleSheet" href="css/style.css" type="text/css" media="screen">
+</head>
+
+<body>
+    <header>
+      <img
+          src="./images/pokemon.png"
+          class="icon-logo"
+          alt="icon logo"
+          width="300px"
+        />
+      <p>
+        Tu aplicación de pokemons preferidos
+      </p>
+      <select id="typeSelected">
+        <option value="">TODOS</option>
+        <option value="normal">NORMAL</option>
+        <option value="grass">PLANTA</option>
+        <option value="fire">FUEGO</option>
+        <option value="water">AGUA</option>
+        <option value="electric">ELECTRICIDAD</option>
+        <option value="poison">VENENO</option>
+      </select>
+    </header>
+    <!-- Contenedor de la list de pokemon -->
+    <section></section>
+
+    <!-- Contenedor del cartel de descripcion popup -->
+    <div id="popupContainer" class="hideType">
+      <!-- Pokemon Name & Number -->
+      <header class="name-number">
+        <span class="name" id="pokeName"></span>
+        <span class="number" id="pokeNum"></span>
+      </header>
+
+      <div class="image-container">
+        <img id="pokeImg"
+            src="https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/001.png"
+            class="icon-type"
+            alt="icon type"
+            />
+      </div>
+
+      <!-- Container for Pokemon Stats -->
+      <div class="stats-container">
+        <div id="hp" class="stat-item">
+          <div class="stat-name">HP</div>
+          <div class="stat-value">45</div>
+          <div class="stat-bar-container">
+            <div class="stat-bar"></div>
+          </div>
+        </div>
+        <div id="attack" class="stat-item">
+          <div class="stat-name">ATK</div>
+          <div class="stat-value">49</div>
+          <div class="stat-bar-container">
+            <div class="stat-bar"></div>
+          </div>
+        </div>
+        <div id="defense" class="stat-item">
+          <div class="stat-name">DEF</div>
+          <div class="stat-value">49</div>
+          <div class="stat-bar-container">
+            <div class="stat-bar"></div>
+          </div>
+        </div>
+        <div id="special-attack" class="stat-item">
+          <div class="stat-name">STAK</div>
+          <div class="stat-value">49</div>
+          <div class="stat-bar-container">
+            <div class="stat-bar"></div>
+          </div>
+        </div>
+        <div id="special-defense" class="stat-item">
+          <div class="stat-name">SDEF</div>
+          <div class="stat-value">49</div>
+          <div class="stat-bar-container">
+            <div class="stat-bar"></div>
+          </div>
+        </div>
+        <div id="speed" class="stat-item">
+          <div class="stat-name">SPD</div>
+          <div class="stat-value">49</div>
+          <div class="stat-bar-container">
+            <div class="stat-bar"></div>
+          </div>
+        </div>        
+      </div>
+      
+      <!-- Container for Pokemon Types -->
+      <div class="types-container">
+        <div id="type1" class="type1"></div>
+        <div id="type2" class="type2"></div>
+      </div>
+    </div>
+
+    <script src="./js/data.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/model.js"></script>
+    <script src="./js/events.js"></script>    
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

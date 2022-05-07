@@ -1,0 +1,22 @@
+* {
+    font-size: 24px;
+}
+
+button {
+    width: 200px;
+    height: 100px;
+}
+
+#pokeStats {
+    display: flex;
+    gap: 20px;
+}
+
+#pokeName {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+#pokeId {
+    font-size: 28px;
+}
