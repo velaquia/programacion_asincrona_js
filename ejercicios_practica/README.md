@@ -1,24 +1,17 @@
 # Tarea
 
-## 1 - Enunciado
+Para esta tarea tenemos como objetivo leer los datos de "bulbasaur.json" con fetch e interpretarlos y procesarlos para mostrar sus atributos en el HTML.
 
-- Debera capturar el evento "onclick" del boton "Consultar"
-y leer los datos ingresados en "personaje".
-- Tome esos datos y dentro del evento consulte los datos del
-  personaje con la API mediante fetch.
-- Ejemplo de la URL con la variable personaje:
-- * `https://rickandmortyapi.com/api/character/?name=${personaje}`
-- Capture los datos del personaje en un JSON e imprimalos en consola.
+## Fetch
+Utilice el archivo "bulbasaour.json" para realizar la tarea. Su objetivo es leer e intepretar los datos dentro de ese JSON.
 
-## 2 - Enunciado
+## Mostrar resultados
+Utilice lo que ya conoce y sabe de manipulación del DOM para mostrar los datos del pokemon en el HTML. Puede realizarlo de la manera que le parezca más conveniente, ejemplo:
 
-- Capture la información del personaje y preséntela en el HTML, puede
-  presentar la información como los ejemplos que se muestran en la página
-  de la API:
+- Utilizando ```<div>``` y ```<span>```.
+- Utilizando ```<table>```.
+- Utilizando ```<ul>``` y ```<li>```.
 
-![personaje_biblesuarus](personaje_biblesaurus.jpg)
+Ejemplo de un resultado posible de referencia:
 
-- Puede agregar o no estilos al HTML, o presentar la información de forma cruda (queda a su criterio y creatividad).
-
-##### Éxitos!
-
+![](referencia.jpg)
